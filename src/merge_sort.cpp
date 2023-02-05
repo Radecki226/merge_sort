@@ -104,11 +104,11 @@ void mergeSort(int *A, int len, int n_threads)
 	}
 
 	//Merge thread portions one after another
-	/*int current_idx = 0;
+	int current_idx = 0;
 	for (int thread = 0; thread < n_threads-1; thread++) {
 		current_idx += chunks[thread];
 		merge(A, 0, current_idx, current_idx+chunks[thread+1]-1);
-	}*/
+	}
 
 }
 
