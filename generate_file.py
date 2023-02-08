@@ -2,7 +2,7 @@ import numpy as np
 
 np.random.seed(2023)
 
-N_DATA = 200000
+N_DATA = 6000000
 MAX_VAL = 1000000
 
 random_array = np.random.randint(MAX_VAL, size = N_DATA)

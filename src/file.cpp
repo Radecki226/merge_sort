@@ -23,7 +23,7 @@ int File :: read_data()
     std::ifstream file(_name + "_input.txt");
 
     if (file.is_open()) {
-        while(!file.eof()) {
+        while(!file.eof() && len < FILE_MAX_LEN) {
             std::string line;
             getline(file, line);
 

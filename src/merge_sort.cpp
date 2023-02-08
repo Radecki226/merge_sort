@@ -7,6 +7,7 @@ using namespace std;
 
 #define ALMOST_INFINITE 200000
 
+
 static void merge(int *A, int p, int q, int r) {
 
 	//Lengths of subarrays

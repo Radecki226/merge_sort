@@ -15,7 +15,9 @@ using namespace std::chrono;
 
 #define MAX_N_THREAD 10
 
-#define N_REPETITIONS 20
+#define N_REPETITIONS 3
+
+File myFile("merge_sort");
 
 static auto runAndMeasureTime(int* array, int len, int n_threads)
 {
@@ -41,9 +43,8 @@ static auto runAndMeasureTimeSingleThread(int *array, int len)
 
 int main()
 {
-	//long long int time[MAX_N_THREAD];
-
-	File myFile("merge_sort");
+	cout << "Merge sort test" << endl;
+	//File myFile("merge_sort");
 	int *array;
 	int len;
 	auto time = 0;

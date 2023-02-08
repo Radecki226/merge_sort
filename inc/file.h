@@ -1,7 +1,8 @@
 #ifndef _FILE_H_
 #define _FILE_H_
 
-#define FILE_MAX_LEN 100000
+#define FILE_MAX_LEN 10000000
+
 #include <string>
 class File
 {
